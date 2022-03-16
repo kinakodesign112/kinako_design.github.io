@@ -76,19 +76,34 @@ header {
 
 .modal-list {
   background-color: rgba(183,213,211,1);
-  padding: 20px 40px;
+  padding: 20px 20px;
   width: 250px;
   height: 100%;
 }
 
+.close-btn {
+  font-size:40px;
+  color:#fff;
+  padding-left:180px;
+  cursor: pointer;
+}
+
 .modal-list li {
-  margin-bottom:20px;
+  margin-bottom:30px;
 }
 
 .modal-list a {
   color:#fff;
   text-decoration: none;
   font-size:24px;
+  padding:10px;
+  opacity: 0.8;
+}
+
+.modal-list a:hover {
+  background-color:rgba(122, 141, 140, 0.5);
+  border-radius:5px;
+  opacity: 1;
 }
 
 h1{
@@ -281,5 +296,25 @@ footer {
   .changes {
     width:300px;
   }
+}
 
+@media (max-width:420px) {
+
+ .header-logo img {
+   width:200px;
+   height:auto;
+ }
+
+ .footer-logo img {
+  width:200px;
+  height:auto;
+ }
+
+ h2 {
+   font-size:28px;
+ }
+
+ h3 {
+   font-size:24px;
+ }
 }
