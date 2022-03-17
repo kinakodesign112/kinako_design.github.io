@@ -286,15 +286,15 @@ footer {
 
 @media (max-width:640px) {
   .form iframe{
-    width:300px;
+    width:100%;
   }
 
   .slide img {
-    width:300px;
+    width:100%;
   }
 
   .changes {
-    width:300px;
+    width:100%;
   }
 }
 
