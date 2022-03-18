@@ -292,13 +292,9 @@ footer {
     width:100%;
   }
 
-  h2 {
-    font-size:32px;
-  }
-
 }
 
-@media (max-width:640px) {
+@media (max-width:612px) {
 
   h2 {
     font-size:24px;
@@ -311,13 +307,18 @@ footer {
   .changes {
     width:100%;
   }
-}
 
-@media (max-width:450px) {
+  header {
+    height:60px;
+  }
 
  .header-logo img {
    width:200px;
    height:auto;
+ }
+
+ .menu-icon {
+   font-size:2em;
  }
 
  .footer-logo img {
@@ -328,5 +329,4 @@ footer {
  h3 {
    font-size:24px;
  }
-
 }
