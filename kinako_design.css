@@ -271,9 +271,6 @@ footer {
 
 
 @media (max-width:755px) {
-  h2{
-    font-size: 32px;
-  }
 
   .header-list{
     display: none;
@@ -282,11 +279,17 @@ footer {
   .menu-icon{
     display: block;
   }
+
+  .form iframe{
+    width:100%;
+  }
+
 }
 
 @media (max-width:640px) {
-  .form iframe{
-    width:100%;
+
+  h2 {
+    font-size:28px;
   }
 
   .slide img {
@@ -298,7 +301,7 @@ footer {
   }
 }
 
-@media (max-width:420px) {
+@media (max-width:450px) {
 
  .header-logo img {
    width:200px;
@@ -310,11 +313,8 @@ footer {
   height:auto;
  }
 
- h2 {
-   font-size:28px;
- }
-
  h3 {
    font-size:24px;
  }
+
 }
