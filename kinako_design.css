@@ -266,11 +266,15 @@ footer {
 }
 
 .footer-list a{
-  color: rgb(100,100,100);
+  color: #fff;
+  opacity: 0.8;
+  padding:10px;
 }
 
 .footer-list a:hover{
-  color:rgb(0,0,0);
+  background-color: #c09d9d;
+  opacity: 1;
+  border-radius:5px;
 }
 
 
